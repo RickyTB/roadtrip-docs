@@ -2,34 +2,16 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bienvenido al manual de RAW Roadtrip Adventure.
 
-## Getting Started
+## Instalación
 
-Get started by **creating a new site**.
+Dependiendo de tu dispositivo, puedes encontrar la aplicación en la App Store de Apple o en Google Play.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Instalación en Android
 
-## Generate a new site
+Desde tu dispositivo, ve a Google Play y busca "RAW Roadtrip Adventure". Puedes ir directamente presionando en el link: [RAW Roadtrip Adventure](https://play.google.com/store/apps/details?id=com.raw.roadtrip).
 
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+![Instalación en Android](/img/tutorial/android_install.png)
