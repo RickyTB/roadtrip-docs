@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Roadtrip Adventure",
-  tagline: "Dinosaurs are cool",
+  title: "RAW Roadtrip Adventure",
+  tagline: "Sistema de navegación GPS",
   url: "https://roadtrip.ricardobaquero.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -26,11 +26,6 @@ const config = {
           // Please change this to your repo.
           editUrl: "https://github.com/RickyTB/roadtrip-docs/edit/main/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/RickyTB/roadtrip-docs/edit/main/blog/",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -44,17 +39,16 @@ const config = {
       navbar: {
         title: "Roadtrip Adventure",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "RAW Roadtrip Adventure Logo",
+          src: "img/logo_roadtrip.svg",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Manual",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/RickyTB/roadtrip-docs",
             label: "GitHub",
@@ -69,7 +63,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Manual",
                 to: "/docs/intro",
               },
               {
@@ -83,7 +77,7 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Redes sociales",
             items: [
               {
                 label: "Stack Overflow",
@@ -100,26 +94,39 @@ const config = {
             ],
           },
           {
-            title: "More",
+            title: "Descarga la app",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "App Store",
+                href: "https://apps.apple.com/us/app/raw-roadtrip-adventure/id1597340162",
               },
               {
-                label: "GitHub",
+                label: "Google Play",
+                href: "https://play.google.com/store/apps/details?id=com.raw.roadtrip",
+              },
+            ],
+          },
+          {
+            title: "Más",
+            items: [
+              {
+                label: "Ayuda a mejorar el manual",
                 href: "https://github.com/RickyTB/roadtrip-docs",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Roadtrip Adventure Ecuador. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Roadtrip Adventure Ecuador.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+  i18n: {
+    defaultLocale: "es",
+    locales: ["es"],
+  },
 };
 
 module.exports = config;
