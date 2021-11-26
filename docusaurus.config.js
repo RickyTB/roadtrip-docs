@@ -76,6 +76,10 @@ const config = {
                 label: "Política de privacidad",
                 to: "/privacy",
               },
+              {
+                label: "Términos y Condiciones",
+                to: "/tos",
+              },
             ],
           },
           {
